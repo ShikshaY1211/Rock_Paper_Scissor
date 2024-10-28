@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Author= Shiksha Yadav, 000887718 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel='stylesheet' type='text/css'  href='style.css'>
+	<script src="javascript.js"></script>
+	
+	
+	
+</head>
+<body>
+
+    <h1 id="heading">&nbsp &nbsp ROCK &nbsp &nbsp PAPER &nbsp &nbsp SCISSOR </h1>
+	
+	<section>
+    <div id="hand1">
+        <img src="images/rock.png" id="img1">
+    </div>
+	</section>
+	   <section>
+    <div id="hand2">
+        <img src="images/rock.png" id="img2">
+    </div>
+	   </section>
+
+    <section>
+    <button type="button" onclick="game(0)" id="rock">ROCK</button>
+    <button type="button" onclick="game(1)" id="paper">PAPER</button>
+    <button type="button" onclick="game(2)" id="scissors">SCISSOR</button>
+    <button type="button" onclick="start()" id="start">START</button>
+	</section>
+
+    <section id="score">
+        <p>Player: <span id="player-score">0</span></p>
+        <p>Computer: <span id="computer-score">0</span></p>
+    </section>
+	<section id="timer">
+  <svg id="clock" width="100" height="100">
+    <circle id="outer" cx="50" cy="50" r="48"/>
+    <circle id="inner" cx="50" cy="50" r="45"/>
+    <line id="hour" x1="50" y1="50" x2="50" y2="25"/>
+    <line id="minute" x1="50" y1="50" x2="50" y2="10"/>
+    <line id="second" x1="50" y1="50" x2="50" y2="5"/>
+  </svg>
+  <p>Time<>
+</section>
+
+
+
+	      <footer>
+               &copy; 2023, Shiksha Yadav, Id: 000887718, Mohawk College.
+          </footer>
+		  
+		
+    
+</body>
+</html>
